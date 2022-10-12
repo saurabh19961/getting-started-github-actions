@@ -35,11 +35,11 @@ jobs:
           echo What is in this derectory?
           ls -a
           echo
-          echo Is Java installed?
-          java -version
+          echo Is Node.Js installed?
+          node --version
           echo
           echo is Git installed?
-          git -- version 
+          git --version 
           echo What about build tools?
           mvn --version
           gradle --version
